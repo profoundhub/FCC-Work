@@ -54,6 +54,34 @@ function makeFriendlyDates(arr) {
 
           console.log("day = " +  thisDay);
 
+    startDateTime = startDate.getTime();
+    endDateTime = endDate.getTime();
+
+  console.log(startDateTime);
+  console.log(endDateTime);
+
+
+
+  if (startDate.getTime() === endDate.getTime()) {
+
+    return [monthNames[startMonth] + ' ' + addEnding(startDay) + ', ' + startYear];
+
+  } else if (startYear === endYear && startMonth === endMonth) {
+
+    return [monthNames[startMonth] + ' ' + addEnding(startDay), addEnding(endDay)];
+
+  } else if (((startYear === new Date().getFullYear() && (startYear === endYear || startYear === endYear - 1)) || startYear === endYear) && startMonth != endMonth) {
+
+    return [monthNames[startMonth] + ' ' + addEnding(startDay), monthNames[endMonth] + ' ' + addEnding(endDay)];
+
+  } else {
+
+
+    return [monthNames[startMonth] + ' ' + addEnding(startDay) + ', ' + startYear, monthNames[endMonth] + ' ' + addEnding(endDay) + ', ' + endYear];
+
+  }
+
+
 
 }
 
