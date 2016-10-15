@@ -1,9 +1,7 @@
-# Make a Person
-let Person = function(firstAndLast) {
-
+var Person = function(firstAndLast) {
+  this.setFullName(firstAndLast);
 };
-  
-  
+
 Person.prototype.getFirstName = function() {
   return this.first;
 };
@@ -29,11 +27,9 @@ Person.prototype.setFullName = function(firstAndLast) {
   this.first = names[0];
   this.last = names[1];
 };
-  
-  
 
-let bob = new Person('Bob Ross');
+var bob = new Person('Bob Ross');
 
 bob.getFullName();  // Bob Ross
+console.log(bob instanceof Person);  // true
 // Object.keys(bob).length;
-// console.log(bob instanceof Person);  // true
