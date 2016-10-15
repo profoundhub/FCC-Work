@@ -1,10 +1,15 @@
-var Person = function(firstAndLast) {
-  var fullName = firstAndLast;  
+var Person = (function() {
+  var firstName, lastName;
+  // , fullName = firstAndLast;  
   
-  this.setFullName(firstAndLast);    
+  function Person(firstAndLast) {    
+    firstName = firstAndLast.split(' ')[0];
+    lastName = firstAndLast.split(' ')[1]; 
+  
+    // this.setFullName(firstAndLast);    
 
-  // this.setFullName = function(name) {fullName = names;};
-};
+    // this.setFullName = function(name) {fullName = names;};
+  }
 
   Person.prototype.getFirstName = function() {
     return this.first;
@@ -27,11 +32,13 @@ var Person = function(firstAndLast) {
   };
 
   Person.prototype.setFullName = function(firstAndLast) {
-    names = firstAndLast.split(' ');
+    var names = firstAndLast.split(' ');
     this.first = names[0];
     this.last = names[1];
   };
 
+  return Person;
+  })();
 
 var bob = new Person('Bob Ross');
 
