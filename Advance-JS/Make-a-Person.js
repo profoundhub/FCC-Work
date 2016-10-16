@@ -1,6 +1,4 @@
-(function() {
-  
-  function Person(firstAndLast) {
+var Person = function(firstAndLast) {
     
     var firstName, lastName, fullName = firstAndLast;
 
@@ -26,11 +24,11 @@
 
     this.setFullName = function(name) {
       fullName = name;
-    };
-    
-  }
+    };    
   
+};
+
 var bob = new Person("Bob Ross");  
 bob.getFullName();
   
-}) ();
+
