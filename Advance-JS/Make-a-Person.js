@@ -1,9 +1,8 @@
-var Person = (function() {
-  var firstName, lastName;
+(function() {
   
   function Person(firstAndLast) {
     
-    var fullName = firstAndLast;
+    var firstName, lastName, fullName = firstAndLast;
 
     this.getFirstName = function() {
       return fullName.split(' ')[0];
@@ -31,7 +30,7 @@ var Person = (function() {
     
   }
   
-var bob = new Person("Bob Ross");
+var bob = new Person("Bob Ross");  
 bob.getFullName();
   
-})();
+}) ();
