@@ -2,7 +2,7 @@ var Person = (function() {
   var firstName, lastName;
   
   function Person(firstAndLast) {      
-    var fullName = firstAndLast, nameArr = firstAndLast.split(' ');     
+    var fullName = firstAndLast /* , nameArr = firstAndLast.split(' ') */;     
      
        var name = firstAndLast.split(' ');
        firstName = name[0];
@@ -13,10 +13,11 @@ var Person = (function() {
       firstName = firstAndLast.split(' ')[0];
       lastName = firstAndLast.split(' ')[1]; 
     */
-    firstName = nameArr[0];
-    lastName = nameArr[1];
+    /*
+    firstName = name[0];
+    lastName = name[1];
     
-    
+    */
     /*
     console.log(firstName);
     console.log(lastName);
@@ -36,8 +37,8 @@ var Person = (function() {
   };
     
   
-  this.setFirstName = function(name) {
-    this.first = name;
+  this.setFirstName = function(nameF) {
+    this.first = nameF;
     fullName = name + ' ' + fullName.split(' ')[1];
     return fullName;
   };
@@ -48,8 +49,8 @@ var Person = (function() {
   }; 
 */
     
-  this.setLastName = function(name) {
-    this.last = name;
+  this.setLastName = function(nameL) {
+    this.last = nameL;
     fullName = firstAndLast.split(' ')[0] + ' ' + name;
     return fullName;
   };
@@ -60,8 +61,8 @@ var Person = (function() {
   };
       
   this.setFullName  = function(firstAndLast) {
-    fullName = name;
-    nameArr = firstAndLast.split(' ');
+    fullName = nameFull;
+    /*nameArr = firstAndLast.split(' '); */
   };
 }
   /*
@@ -77,6 +78,7 @@ var Person = (function() {
     return firstName + ' ' + lastName;
   };
     */
+  
   Person.prototype.setFullName = function(firstAndLast) {
     // var names = firstAndLast.split(' ');
     /* */ 
