@@ -1,7 +1,7 @@
 # FCC-Work
 FreeCodeCamp Work: https://www.freecodecamp.com/map
 
-## Table of-Contents(./Table-of-Contents.md)
+## Table of-Contents(Table-of-Contents.md)
 
 No. | Title | Link
 | ------------- |:-------------| -----:|
