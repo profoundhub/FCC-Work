@@ -1,7 +1,7 @@
 
 # Basic JavaScript (10 hours)
 Number | Title | Link
---- | --- | ---
+| ------------- |:-------------:| -----:|
 
 
 
