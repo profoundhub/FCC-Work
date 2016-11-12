@@ -71,60 +71,39 @@ Number | Title | Link
 67 | Introducing Else Statements | +
 68 | Introducing Else If Statements | +
 69 | Logical Order in If Else Statements | +
-
-Chaining If Else Statements | +
-Golf Code | +
-Selecting from many options with Switch Statements | +
-Adding a default option in Switch statements | +
-Multiple Identical Options in Switch Statements | +
-Replacing If Else Chains with Switch | +
-Returning Boolean Values from Functions | +
-Return Early Pattern for Functions | +
-Counting Cards | +
-Build JavaScript Objects | +
-Accessing Objects Properties with the Dot Operator | +
-Accessing Objects Properties with Bracket Notation | +
-Accessing Objects Properties with Variables | +
-Updating Object Properties | +
-Add New Properties to a JavaScript Object | +
-Delete Properties from a JavaScript Object | +
-Using Objects for Lookups | +
-Testing Objects for Properties | +
-Manipulating Complex Objects | +
-Accessing Nested Objects | +
-Accessing Nested Arrays | +
-Record Collection | +
-Iterate with JavaScript For Loops | +
-Iterate Odd Numbers With a For Loop | +
-Count Backwards With a For Loop | +
-Iterate Through an Array with a For Loop | +
-Nesting For Loops | +
-Iterate with JavaScript While Loops | +
-Profile Lookup | +
-Generate Random Fractions with JavaScript | +
-Generate Random Whole Numbers with JavaScript | +
-Generate Random Whole Numbers within a Range | +
-Sift through Text with Regular Expressions | +
-Find Numbers with Regular Expressions | +
-Find Whitespace with Regular Expressions | +
-Invert Regular Expression Matches with JavaScript | +
-
-
-
-
-
-
-
-1 | 
-2 | 
-3 |   
-4 |  
-5 |  
-6 |  
-7 |  
-8 |  
-9 | 
- | + 
-
-
-
+70 | Chaining If Else Statements | +
+71 | Golf Code | +
+72 | Selecting from many options with Switch Statements | +
+73 | Adding a default option in Switch statements | +
+74 | Multiple Identical Options in Switch Statements | +
+75 | Replacing If Else Chains with Switch | +
+76 | Returning Boolean Values from Functions | +
+77 | Return Early Pattern for Functions | +
+78 | Counting Cards | +
+79 | Build JavaScript Objects | +
+80 | Accessing Objects Properties with the Dot Operator | +
+81 | Accessing Objects Properties with Bracket Notation | +
+82 | Accessing Objects Properties with Variables | +
+83 | Updating Object Properties | +
+84 | Add New Properties to a JavaScript Object | +
+85 | Delete Properties from a JavaScript Object | +
+86 | Using Objects for Lookups | +
+87 | Testing Objects for Properties | +
+88 | Manipulating Complex Objects | +
+89 | Accessing Nested Objects | +
+90 | Accessing Nested Arrays | +
+91 | Record Collection | +
+92 | Iterate with JavaScript For Loops | +
+93 | Iterate Odd Numbers With a For Loop | +
+94 | Count Backwards With a For Loop | +
+95 | Iterate Through an Array with a For Loop | +
+96 | Nesting For Loops | +
+97 | Iterate with JavaScript While Loops | +
+98 | Profile Lookup | +
+99 | Generate Random Fractions with JavaScript | +
+100 | Generate Random Whole Numbers with JavaScript | +
+101 | Generate Random Whole Numbers within a Range | +
+102 | Sift through Text with Regular Expressions | +
+103 | Find Numbers with Regular Expressions | +
+104 | Find Whitespace with Regular Expressions | +
+105 | Invert Regular Expression Matches with JavaScript | +
