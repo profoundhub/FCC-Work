@@ -1,4 +1,3 @@
-
 # Advanced Algorithm Scripting
 
 Number | Title | Link

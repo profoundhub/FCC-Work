@@ -1,5 +1,6 @@
 
 # Basic Algorithm Scripting (10 hours)
+
 Number | Title | Link
 | ------------- |:-------------| -----:|
 1 | Reverse a String | +
