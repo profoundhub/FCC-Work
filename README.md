@@ -14,4 +14,4 @@ No. | Title | Link
 7 | [JSON APIs and Ajax] (https://github.com/profoundhub/FCC-Work/tree/master/7-JSON-APIs-and-Ajax) | +
 8 | [Intermediate Algorithm Scripting] (https://github.com/profoundhub/FCC-Work/tree/master/8-Intermediate%20Algorithm%20Scripting) | + 
 9 | [Advance JS] (https://github.com/profoundhub/FCC-Work/tree/master/9-Advance-JS) | +
-10 |  | +
+10 | Projects | +
