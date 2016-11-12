@@ -2,74 +2,73 @@
 # Basic JavaScript (10 hours)
 Number | Title | Link
 --- | --- | ---
-* 001 * | ` 002 ` | ** 003 **
-1 | 2 | 3
 
 
 
+1 | Comment your JavaScript Code | +
+
+2 | Declare JavaScript Variables | +
+
+3 | Storing Values with the Assignment Operator | +
+
+4 | Initializing Variables with the Assignment Operator | +
+
+5 | Understanding Uninitialized Variables | +
+
+6 | Understanding Case Sensitivity in Variables | +
+
+7 | Add Two Numbers with JavaScript | +
+
+8 | Subtract One Number from Another with JavaScript | +
+
+9 | Multiply Two Numbers with JavaScript | +
+
+10 | Divide One Number by Another with JavaScript | +
+
+11 | Increment a Number with JavaScript | +
+
+12 | Decrement a Number with JavaScript | +
 
 
-Comment your JavaScript Code
+13 | Create Decimal Numbers with JavaScript | +
 
-Declare JavaScript Variables
+14 | Multiply Two Decimals with JavaScript | +
 
-Storing Values with the Assignment Operator
+15 | Divide one Decimal by Another with JavaScript | +
 
-Initializing Variables with the Assignment Operator
+16 | Finding a Remainder in JavaScript | +
 
-Understanding Uninitialized Variables
+17 | Compound Assignment With Augmented Addition | +
 
-Understanding Case Sensitivity in Variables
+18 | Compound Assignment With Augmented Subtraction | +
 
-Add Two Numbers with JavaScript
+19 | Compound Assignment With Augmented Multiplication | +
 
-Subtract One Number from Another with JavaScript
 
-Multiply Two Numbers with JavaScript
 
-Divide One Number by Another with JavaScript
+Compound Assignment With Augmented Division | +
 
-Increment a Number with JavaScript
+Convert Celsius to Fahrenheit | +
 
-Decrement a Number with JavaScript
+Declare String Variables | +
 
-Create Decimal Numbers with JavaScript
+Escaping Literal Quotes in Strings | +
 
-Multiply Two Decimals with JavaScript
+Quoting Strings with Single Quotes | +
 
-Divide one Decimal by Another with JavaScript
+Escape Sequences in Strings | +
 
-Finding a Remainder in JavaScript
+Concatenating Strings with Plus Operator | +
 
-Compound Assignment With Augmented Addition
+Concatenating Strings with the Plus Equals Operator | +
 
-Compound Assignment With Augmented Subtraction
+Constructing Strings with Variables | +
 
-Compound Assignment With Augmented Multiplication
+Appending Variables to Strings | +
 
-Compound Assignment With Augmented Division
+Find the Length of a String | +
 
-Convert Celsius to Fahrenheit
-
-Declare String Variables
-
-Escaping Literal Quotes in Strings
-
-Quoting Strings with Single Quotes
-
-Escape Sequences in Strings
-
-Concatenating Strings with Plus Operator
-
-Concatenating Strings with the Plus Equals Operator
-
-Constructing Strings with Variables
-
-Appending Variables to Strings
-
-Find the Length of a String
-
-Use Bracket Notation to Find the First Character in a String
+Use Bracket Notation to Find the First Character in a String | +
 
 Understand String Immutability
 
@@ -218,3 +217,23 @@ Find Numbers with Regular Expressions
 Find Whitespace with Regular Expressions
 
 Invert Regular Expression Matches with JavaScript
+
+
+
+
+
+
+
+1 | 
+2 | 
+3 |   
+4 |  
+5 |  
+6 |  
+7 |  
+8 |  
+9 | 
+ | + 
+
+
+
