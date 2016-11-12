@@ -1,3 +1,3 @@
 # Table of Contents
 
-Table of Contents (Table-of-Contents.md)
+[Table of Contents] (Table-of-Contents.md)
