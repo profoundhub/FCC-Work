@@ -2,52 +2,26 @@
 # Basic JavaScript (10 hours)
 Number | Title | Link
 | ------------- |:-------------:| -----:|
-
-
-
 1 | Comment your JavaScript Code | +
-
 2 | Declare JavaScript Variables | +
-
 3 | Storing Values with the Assignment Operator | +
-
 4 | Initializing Variables with the Assignment Operator | +
-
 5 | Understanding Uninitialized Variables | +
-
 6 | Understanding Case Sensitivity in Variables | +
-
 7 | Add Two Numbers with JavaScript | +
-
 8 | Subtract One Number from Another with JavaScript | +
-
 9 | Multiply Two Numbers with JavaScript | +
-
 10 | Divide One Number by Another with JavaScript | +
-
 11 | Increment a Number with JavaScript | +
-
 12 | Decrement a Number with JavaScript | +
-
-
 13 | Create Decimal Numbers with JavaScript | +
-
 14 | Multiply Two Decimals with JavaScript | +
-
 15 | Divide one Decimal by Another with JavaScript | +
-
 16 | Finding a Remainder in JavaScript | +
-
 17 | Compound Assignment With Augmented Addition | +
-
 18 | Compound Assignment With Augmented Subtraction | +
-
 19 | Compound Assignment With Augmented Multiplication | +
-
-
-
 Compound Assignment With Augmented Division | +
-
 Convert Celsius to Fahrenheit | +
 
 Declare String Variables | +
