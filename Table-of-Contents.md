@@ -42,35 +42,36 @@ Number | Title | Link
 38 | Nest one Array within Another Array | +
 39 | Access Array Data with Indexes | +
 40 | Modify Array Data With Indexes | +
-Access Multi-Dimensional Arrays With Indexes | +
-Manipulate Arrays With push() | +
-Manipulate Arrays With pop() | +
-Manipulate Arrays With shift() | +
-Manipulate Arrays With unshift() | +
-Shopping List | +
-Write Reusable JavaScript with Functions | +
-Passing Values to Functions with Arguments | +
-Global Scope and Functions | +
-Local Scope and Functions | +
-Global vs. Local Scope in Functions | +
-Return a Value from a Function with Return | +
-Assignment with a Returned Value | +
-Stand in Line | +
-Understanding Boolean Values | +
-Use Conditional Logic with If Statements | +
-Comparison with the Equality Operator | +
-Comparison with the Strict Equality Operator | +
-Comparison with the Inequality Operator | +
-Comparison with the Strict Inequality Operator | +
-Comparison with the Greater Than Operator | +
-Comparison with the Greater Than Or Equal To Operator | +
-Comparison with the Less Than Operator | +
-Comparison with the Less Than Or Equal To Operator | +
-Comparisons with the Logical And Operator | +
-Comparisons with the Logical Or Operator | +
-Introducing Else Statements | +
-Introducing Else If Statements | +
-Logical Order in If Else Statements | +
+41 | Access Multi-Dimensional Arrays With Indexes | +
+42 | Manipulate Arrays With push() | +
+43 | Manipulate Arrays With pop() | +
+44 | Manipulate Arrays With shift() | +
+45 | Manipulate Arrays With unshift() | +
+46 | Shopping List | +
+47 | Write Reusable JavaScript with Functions | +
+48 | Passing Values to Functions with Arguments | +
+49 | Global Scope and Functions | +
+50 | Local Scope and Functions | +
+51 | Global vs. Local Scope in Functions | +
+52 | Return a Value from a Function with Return | +
+53 | Assignment with a Returned Value | +
+54 | Stand in Line | +
+55 | Understanding Boolean Values | +
+56 | Use Conditional Logic with If Statements | +
+57 | Comparison with the Equality Operator | +
+58 | Comparison with the Strict Equality Operator | +
+59 | Comparison with the Inequality Operator | +
+60 | Comparison with the Strict Inequality Operator | +
+61 | Comparison with the Greater Than Operator | +
+62 | Comparison with the Greater Than Or Equal To Operator | +
+63 | Comparison with the Less Than Operator | +
+64 | Comparison with the Less Than Or Equal To Operator | +
+65 | Comparisons with the Logical And Operator | +
+66 | Comparisons with the Logical Or Operator | +
+67 | Introducing Else Statements | +
+68 | Introducing Else If Statements | +
+69 | Logical Order in If Else Statements | +
+
 Chaining If Else Statements | +
 Golf Code | +
 Selecting from many options with Switch Statements | +
