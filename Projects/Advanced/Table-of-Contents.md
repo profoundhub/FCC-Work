@@ -1,5 +1,5 @@
 
-# Projects
+# Advanced Front End Development Projects
 
 No. | Title | Link
 | ------------- |:-------------| -----:|
