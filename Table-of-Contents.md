@@ -21,27 +21,27 @@ Number | Title | Link
 17 | Compound Assignment With Augmented Addition | +
 18 | Compound Assignment With Augmented Subtraction | +
 19 | Compound Assignment With Augmented Multiplication | +
-Compound Assignment With Augmented Division | +
-Convert Celsius to Fahrenheit | +
-Declare String Variables | +
-Escaping Literal Quotes in Strings | +
-Quoting Strings with Single Quotes | +
-Escape Sequences in Strings | +
-Concatenating Strings with Plus Operator | +
-Concatenating Strings with the Plus Equals Operator | +
-Constructing Strings with Variables | +
-Appending Variables to Strings | +
-Find the Length of a String | +
-Use Bracket Notation to Find the First Character in a String | +
-Understand String Immutability | +
-Use Bracket Notation to Find the Nth Character in a String | +
-Use Bracket Notation to Find the Last Character in a String | +
-Use Bracket Notation to Find the Nth-to-Last Character in a String | +
-Word Blanks | +
-Store Multiple Values in one Variable using JavaScript Arrays | +
-Nest one Array within Another Array | +
-Access Array Data with Indexes | +
-Modify Array Data With Indexes | +
+20 | Compound Assignment With Augmented Division | +
+21 | Convert Celsius to Fahrenheit | +
+22 | Declare String Variables | +
+23 | Escaping Literal Quotes in Strings | +
+24 | Quoting Strings with Single Quotes | +
+25 | Escape Sequences in Strings | +
+26 | Concatenating Strings with Plus Operator | +
+27 | Concatenating Strings with the Plus Equals Operator | +
+28 | Constructing Strings with Variables | +
+29 | Appending Variables to Strings | +
+30 | Find the Length of a String | +
+31 | Use Bracket Notation to Find the First Character in a String | +
+32 | Understand String Immutability | +
+33 | Use Bracket Notation to Find the Nth Character in a String | +
+34 | Use Bracket Notation to Find the Last Character in a String | +
+35 | Use Bracket Notation to Find the Nth-to-Last Character in a String | +
+36 | Word Blanks | +
+37 | Store Multiple Values in one Variable using JavaScript Arrays | +
+38 | Nest one Array within Another Array | +
+39 | Access Array Data with Indexes | +
+40 | Modify Array Data With Indexes | +
 Access Multi-Dimensional Arrays With Indexes | +
 Manipulate Arrays With push() | +
 Manipulate Arrays With pop() | +
