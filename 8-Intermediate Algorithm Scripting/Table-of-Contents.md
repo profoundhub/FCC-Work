@@ -1,5 +1,5 @@
 
-# Advanced Algorithm Scripting
+# Intermediate Algorithm Scripting
 
 Number | Title | Link
 | ------------- |:-------------| -----:|

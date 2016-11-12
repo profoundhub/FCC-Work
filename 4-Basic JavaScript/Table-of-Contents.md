@@ -1,5 +1,6 @@
 
 # Basic JavaScript (10 hours)
+
 Number | Title | Link
 | ------------- |:-------------| -----:|
 1 | Comment your JavaScript Code | +

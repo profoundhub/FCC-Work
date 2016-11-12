@@ -1,5 +1,5 @@
 
-# Advanced Algorithm Scripting
+# Object Oriented and Functional Programming
 
 Number | Title | Link
 | ------------- |:-------------| -----:|

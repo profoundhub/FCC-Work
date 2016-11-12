@@ -1,5 +1,5 @@
 
-# Advanced Algorithm Scripting
+# JSON APIs and Ajax
 
 Number | Title | Link
 | ------------- |:-------------| -----:|
