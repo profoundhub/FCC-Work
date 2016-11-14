@@ -1,4 +1,4 @@
-/* Validate US Telephone Numbers */
+/* Validate US Telephone Numbers ES6 */
 
 let telephoneCheck = (str) => {
   let regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
