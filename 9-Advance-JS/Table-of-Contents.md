@@ -3,29 +3,12 @@
 Number | Title | Link
 | ------------- |:-------------| -----:|
 1 | Validate US Telephone Numbers | Complete
-2 | + | Complete
-3 | + | Complete
-4 | + | +
-5 | + | +
-6 | + | +
-7 | + | +
-8 | + | +
+2 | Symmetric Difference | Complete
+3 | Exact Change | Complete
+4 | Inventory Update | Incomplete
+5 | No repeats please | Complete
+6 | Friendly Date Ranges | Incomplete
+7 | Make a Person | Complete
+8 | Map the Debris | Incomplete
 9 | Pairwise | Complete
 10 | + | +
-
-Validate US Telephone Numbers 
-
-Symmetric Difference Complete
-
-Exact Change Complete
-
-Inventory Update Incomplete
-
-No repeats please Complete
-
-Friendly Date Ranges Incomplete
-
-Make a Person Complete
-
-Map the Debris Incomplete
-
