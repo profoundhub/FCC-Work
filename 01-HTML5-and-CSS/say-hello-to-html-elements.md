@@ -3,17 +3,17 @@ Welcome to Free Code Camp's first coding challenge.
 
 You can edit code in your text editor, which we've embedded into this web page.
 
-Do you see the code in your text editor that says <h1>Hello</h1>? That's an HTML element.
+Do you see the code in your text editor that says `<h1>Hello</h1>`? That's an HTML element.
 
 Most HTML elements have an opening tag and a closing tag.
 
 Opening tags look like this:
 
-<h1>
+`<h1>`
 
 Closing tags look like this:
 
-</h1>
+`</h1>`
 
 Note that the only difference between opening tags and closing tags is that closing tags have a slash after their opening angle bracket.
 
