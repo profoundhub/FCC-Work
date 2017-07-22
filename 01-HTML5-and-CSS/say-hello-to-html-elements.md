@@ -1,4 +1,5 @@
-Say Hello to HTML Elements 
+#Say Hello to HTML Elements 
+
 Welcome to Free Code Camp's first coding challenge.
 
 You can edit code in your text editor, which we've embedded into this web page.
@@ -19,4 +20,4 @@ Note that the only difference between opening tags and closing tags is that clos
 
 Each challenge has tests that you can run at any time by clicking the "Run tests" button. Once you get all tests passing, you can advance to the next challenge.
 
-To pass the test on this challenge, change your h1 element's text to say "Hello World" instead of "Hello". Then click the "Run tests" button.
+To pass the test on this challenge, change your `h1` element's text to say "Hello World" instead of "Hello". Then click the "Run tests" button.
