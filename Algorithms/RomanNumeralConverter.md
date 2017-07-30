@@ -1,4 +1,4 @@
-Roman Numeral Converter 
+## Roman Numeral Converter 
 Convert the given number into a roman numeral.
 
 All roman numerals answers should be provided in upper-case.
@@ -7,11 +7,10 @@ Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write you
 
 Here are some helpful links:
 
-Roman Numerals
+### Roman Numerals
 Array.prototype.splice()
 Array.prototype.indexOf()
 Array.prototype.join()
-
 
 convertToRoman(2) should return "II".
 convertToRoman(3) should return "III".
