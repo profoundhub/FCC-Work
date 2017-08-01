@@ -1,6 +1,12 @@
-<div class="instructionsContainer"><p class="qa"><!-- react-text: 86 -->QA status: <!-- /react-text --><span class="qa-complete">Review Complete</span></p><hr class="qa-line"><h1 class="challengeTitle"><span class="default">Challenge: </span>Create a React Component</h1><p class="challengeText"><span class="default">Intro: </span>The other way to define a React component is with the ES6 <code>class</code> syntax. In the following example, <code>Kitten</code> extends <code>React.Component</code>:
+<div class="instructionsContainer">
+  <p class="qa">
+    <!-- react-text: 86 -->QA status:
+    <!-- /react-text --><span class="qa-complete">Review Complete</span></p>
+  <hr class="qa-line">
+  <h1 class="challengeTitle"><span class="default">Challenge: </span>Create a React Component</h1>
+  <p class="challengeText"><span class="default">Intro: </span>The other way to define a React component is with the ES6 <code>class</code> syntax. In the following example, <code>Kitten</code> extends <code>React.Component</code>:
 
-<pre><code class="codeBlock">class Kitten extends React.Component {
+    <pre><code class="codeBlock">class Kitten extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -11,18 +17,59 @@
     );
   }
 }</code>
-</pre>
+</pre> This creates an ES6 class <code>Kitten</code> which extends the <code>React.Component</code> class. So the <code>Kitten</code> class now has access to many useful React features, such as local state and lifecycle hooks. Don't worry if you aren't
+    familiar with these terms yet, they will be covered in greater detail in later challenges.
+    <br><br> Also notice the <code>Kitten</code> class has a <code>constructor</code> defined within it that calls <code>super()</code>. It uses <code>super()</code> to call the constructor of the parent class, in this case <code>React.Component</code>.
+    The constructor is a special method used during the initialization of objects that are created with the <code>class</code> keyword. It is best practice to call a component's <code>constructor</code> with <code>super</code>, and pass <code>props</code>    to both. This makes sure the component is initialized properly. For now, know that it is standard for this code to be included. Soon you will see other uses for the constructor as well as <code>props</code>.</p>
+  <p class="instructions">
+    <span class="default">Instructions: </span><code>MyComponent</code> is defined in the code editor using class syntax. Finish writing the <code>render</code> method so it returns a <code>div</code> element that contains an <code>h1</code> with the
+    text <code>Hello React!</code>.'
+  </p>
+</div>
 
-This creates an ES6 class <code>Kitten</code> which extends the <code>React.Component</code> class. So the <code>Kitten</code> class now has access to many useful React features, such as local state and lifecycle hooks. Don't worry if you aren't familiar with these terms yet, they will be covered in greater detail in later challenges.
-<br><br>
+<div class="outputContainer">
+  <h1 class="outputTitle">Live Preview:</h1>
+  <div id="liveOutput"></div>
+</div>
 
-Also notice the <code>Kitten</code> class has a <code>constructor</code> defined within it that calls <code>super()</code>. It uses <code>super()</code> to call the constructor of the parent class, in this case <code>React.Component</code>. The constructor is a special method used during the initialization of objects that are created with the <code>class</code> keyword. It is best practice to call a component's <code>constructor</code> with <code>super</code>, and pass <code>props</code> to both. This makes sure the component is initialized properly. For now, know that it is standard for this code to be included. Soon you will see other uses for the constructor as well as <code>props</code>.</p><p class="instructions">
-	<span class="default">Instructions: </span><code>MyComponent</code> is defined in the code editor using class syntax. Finish writing the <code>render</code> method so it returns a <code>div</code> element that contains an <code>h1</code> with the text <code>Hello React!</code>.'
-</p></div>
-
-<div class="outputContainer"><h1 class="outputTitle">Live Preview:</h1><div id="liveOutput"></div></div>
-
-<div class="mainContainer"><div class="testWrapper"><h1 class="title">Tests</h1><div class="testControls"><button class="seedBtn">Reload Seed</button><button class="solnBtn">Solution Code</button><button class="travelBtn">Previous Challenge</button><button class="travelBtn">Next Challenge</button><button class="testBtn">Test Code</button></div><div class="testResults"><p class="msg error"><!-- react-text: 106 -->Your code does not pass the tests, <!-- /react-text --><!-- react-text: 123 -->1<!-- /react-text --><!-- react-text: 107 --> out of <!-- /react-text --><!-- react-text: 124 -->4<!-- /react-text --><!-- react-text: 108 --> tests are passing<!-- /react-text --></p><p class="test testSuccess"><i class="fa fa-check" aria-hidden="true"></i><!-- react-text: 127 -->Your JSX code should transpile successfully.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 130 -->The React component should return a div element.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 133 -->The returned div should render an h1 tag within it.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 175 -->The h1 tag should include the string 'Hello React!'<!-- /react-text --></p></div></div><div class="codeWrapper"><h1 class="title"><!-- react-text: 111 -->Code <!-- /react-text --><span class="keyShortcut">(press Cmd/Ctrl + Enter to run)</span></h1><div class="ReactCodeMirror editor"><textarea autocomplete="off" style="display: none;">
+<div class="mainContainer">
+  <div class="testWrapper">
+    <h1 class="title">Tests</h1>
+    <div class="testControls"><button class="seedBtn">Reload Seed</button><button class="solnBtn">Solution Code</button><button class="travelBtn">Previous Challenge</button><button class="travelBtn">Next Challenge</button><button class="testBtn">Test Code</button></div>
+    <div class="testResults">
+      <p class="msg error">
+        <!-- react-text: 106 -->Your code does not pass the tests,
+        <!-- /react-text -->
+        <!-- react-text: 123 -->1
+        <!-- /react-text -->
+        <!-- react-text: 107 -->out of
+        <!-- /react-text -->
+        <!-- react-text: 124 -->4
+        <!-- /react-text -->
+        <!-- react-text: 108 -->tests are passing
+        <!-- /react-text -->
+      </p>
+      <p class="test testSuccess"><i class="fa fa-check" aria-hidden="true"></i>
+        <!-- react-text: 127 -->Your JSX code should transpile successfully.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 130 -->The React component should return a div element.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 133 -->The returned div should render an h1 tag within it.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 175 -->The h1 tag should include the string 'Hello React!'
+        <!-- /react-text -->
+      </p>
+    </div>
+  </div>
+  <div class="codeWrapper">
+    <h1 class="title"><!-- react-text: 111 -->Code <!-- /react-text --><span class="keyShortcut">(press Cmd/Ctrl + Enter to run)</span></h1>
+    <div class="ReactCodeMirror editor"><textarea autocomplete="off" style="display: none;">
 class MyComponent extends React.Component {
 	constructor(props) {
 		super(props);
@@ -34,11 +81,126 @@ class MyComponent extends React.Component {
 
 	  // change code above this line
   }
-};</textarea><div class="CodeMirror cm-s-monokai"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 16px; left: 36px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 29px; margin-bottom: -14px; border-right-width: 16px; min-height: 241px; min-width: 361.4px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>11</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>4</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>11</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>7</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>13</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>7</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>13</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>7</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>13</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style="visibility: hidden;"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 17.92px;">&nbsp;</div></div><div class="CodeMirror-code"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">MyComponent</span> <span class="cm-keyword">extends</span> <span class="cm-variable">React</span>.<span class="cm-property">Component</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-property">constructor</span>(<span class="cm-def">props</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-keyword">super</span>(<span class="cm-variable-2">props</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span>}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">  <span class="cm-property">render</span>() {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span>  <span class="cm-comment">// change code below this line</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">8</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">9</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">10</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">11</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span>  <span class="cm-comment">// change code above this line</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">12</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">13</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">};</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 16px; width: 1px; border-bottom: 0px solid transparent; top: 241px;"></div><div class="CodeMirror-gutters" style="height: 257px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div></div></div></div>
+};</textarea>
+      <div class="CodeMirror cm-s-monokai">
+        <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 16px; left: 36px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div>
+        <div class="CodeMirror-vscrollbar" cm-not-content="true"
+          style="bottom: 0px;">
+          <div style="min-width: 1px; height: 0px;"></div>
+        </div>
+        <div class="CodeMirror-hscrollbar" cm-not-content="true">
+          <div style="height: 100%; min-height: 1px; width: 0px;"></div>
+        </div>
+        <div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div>
+        <div class="CodeMirror-gutter-filler" cm-not-content="true"></div>
+        <div class="CodeMirror-scroll" tabindex="-1">
+          <div class="CodeMirror-sizer" style="margin-left: 29px; margin-bottom: -14px; border-right-width: 16px; min-height: 241px; min-width: 361.4px; padding-right: 0px; padding-bottom: 0px;">
+            <div style="position: relative; top: 0px;">
+              <div class="CodeMirror-lines">
+                <div style="position: relative; outline: none;">
+                  <div class="CodeMirror-measure"><pre>x</pre>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>11</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>4</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>11</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>7</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>13</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>7</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>13</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>7</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>13</div>
+                    </div>
+                  </div>
+                  <div class="CodeMirror-measure"></div>
+                  <div style="position: relative; z-index: 1;"></div>
+                  <div class="CodeMirror-cursors" style="visibility: hidden;">
+                    <div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 17.92px;">&nbsp;</div>
+                  </div>
+                  <div class="CodeMirror-code">
+                    <div style="position: relative;">
+                      <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                        <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div>
+                      </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div>
+                    <div style="position: relative;">
+                      <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                        <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div>
+                      </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">MyComponent</span> <span class="cm-keyword">extends</span> <span class="cm-variable">React</span>.<span class="cm-property">Component</span> {</span></pre></div>
+                    <div
+                      style="position: relative;">
+                      <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                        <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div>
+                      </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-property">constructor</span>(<span class="cm-def">props</span>) {</span></pre></div>
+                  <div
+                    style="position: relative;">
+                    <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                      <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div>
+                    </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-keyword">super</span>(<span class="cm-variable-2">props</span>);</span></pre></div>
+                <div
+                  style="position: relative;">
+                  <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div>
+                  </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span>}</span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">  <span class="cm-property">render</span>() {</span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span>  <span class="cm-comment">// change code below this line</span></span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">8</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">9</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">10</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">11</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">  </span>  <span class="cm-comment">// change code above this line</span></span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">12</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">  }</span></pre></div>
+              <div style="position: relative;">
+                <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                  <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">13</div>
+                </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">};</span></pre></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="position: absolute; height: 16px; width: 1px; border-bottom: 0px solid transparent; top: 241px;"></div>
+    <div class="CodeMirror-gutters" style="height: 257px;">
+      <div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
 
 <div id="challenge-node" style="display: none;"></div>
-
-
-
-
-

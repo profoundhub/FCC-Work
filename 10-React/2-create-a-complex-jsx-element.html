@@ -1,36 +1,136 @@
-<div class="instructionsContainer"><p class="qa"><!-- react-text: 86 -->QA status: <!-- /react-text --><span class="qa-complete">Review Complete</span></p><hr class="qa-line"><h1 class="challengeTitle"><span class="default">Challenge: </span>Create a Complex JSX Element</h1><p class="challengeText"><span class="default">Intro: </span>
+<div class="instructionsContainer">
+  <p class="qa">
+    <!-- react-text: 86 -->QA status:
+    <!-- /react-text --><span class="qa-complete">Review Complete</span></p>
+  <hr class="qa-line">
+  <h1 class="challengeTitle"><span class="default">Challenge: </span>Create a Complex JSX Element</h1>
+  <p class="challengeText"><span class="default">Intro: </span> The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well. One important thing to know about nested JSX is that it must return a single element. This one parent element would
+    wrap all of the other levels of nested elements. For instance, several JSX elements written as siblings with no parent wrapper element will not transpile. Here's an example:
 
-The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
-One important thing to know about nested JSX is that it must return a single element.
-This one parent element would wrap all of the other levels of nested elements.
-For instance, several JSX elements written as siblings with no parent wrapper element will not transpile.
-Here's an example:
+    <br><br>
 
-<br><br>
-
-<b>Valid JSX:</b>
-<pre><code class="codeBlock">&lt;div&gt;
+    <b>Valid JSX:</b>
+    <pre><code class="codeBlock">&lt;div&gt;
   &lt;p&gt;Paragraph One&lt;/p&gt;
   &lt;p&gt;Paragraph Two&lt;/p&gt;
   &lt;p&gt;Paragraph Three&lt;/p&gt;
 &lt;/div&gt;</code>
 </pre>
 
-<br>
+    <br>
 
-<b>Invalid JSX:</b>
-<pre><code class="codeBlock">&lt;p&gt;Paragraph One&lt;/p&gt;
+    <b>Invalid JSX:</b>
+    <pre><code class="codeBlock">&lt;p&gt;Paragraph One&lt;/p&gt;
 &lt;p&gt;Paragraph Two&lt;/p&gt;
 &lt;p&gt;Paragraph Three&lt;/p&gt;
 </code>
-</pre></p><p class="instructions"><span class="default">Instructions: </span>
-Define a new constant <code>JSX</code> that renders a <code>div</code> which contains the following elements in order:
-An <code>h1</code>, a <code>p</code>, and an unordered list that contains three <code>li</code> items. You can include any text you want within each element.<br><br>
+</pre></p>
+  <p class="instructions"><span class="default">Instructions: </span> Define a new constant <code>JSX</code> that renders a <code>div</code> which contains the following elements in order: An <code>h1</code>, a <code>p</code>, and an unordered list that contains three <code>li</code>    items. You can include any text you want within each element.<br><br>
 
-<strong>Note:</strong>&nbsp;When rendering multiple elements like this, you can wrap them all in parentheses, but it's not strictly required. Also notice this challenge uses a <code>div</code> tag to wrap all the child elements within a single parent element. If you remove the <code>div</code>, the JSX will no longer transpile. Keep this in mind, since it will also apply when you return JSX elements in React components.</p></div>
+    <strong>Note:</strong>&nbsp;When rendering multiple elements like this, you can wrap them all in parentheses, but it's not strictly required. Also notice this challenge uses a <code>div</code> tag to wrap all the child elements within a single parent
+    element. If you remove the <code>div</code>, the JSX will no longer transpile. Keep this in mind, since it will also apply when you return JSX elements in React components.</p>
+</div>
 
-<div class="outputContainer"><h1 class="outputTitle">Live Preview:</h1><div id="liveOutput"></div></div>
+<div class="outputContainer">
+  <h1 class="outputTitle">Live Preview:</h1>
+  <div id="liveOutput"></div>
+</div>
 
-<div class="mainContainer"><div class="testWrapper"><h1 class="title">Tests</h1><div class="testControls"><button class="seedBtn">Reload Seed</button><button class="solnBtn">Solution Code</button><button class="travelBtn">Previous Challenge</button><button class="travelBtn">Next Challenge</button><button class="testBtn">Test Code</button></div><div class="testResults"><p class="msg error"><!-- react-text: 106 -->Your code does not pass the tests, <!-- /react-text --><!-- react-text: 123 -->1<!-- /react-text --><!-- react-text: 107 --> out of <!-- /react-text --><!-- react-text: 124 -->6<!-- /react-text --><!-- react-text: 108 --> tests are passing<!-- /react-text --></p><p class="test testSuccess"><i class="fa fa-check" aria-hidden="true"></i><!-- react-text: 127 -->Your JSX code should transpile successfully.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 130 -->The constant JSX should return a div element.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 133 -->The div should contain an h1 tag as the first element.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 160 -->The div should contain a p tag as the second element.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 163 -->The div should contain a ul tag as the third element.<!-- /react-text --></p><p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i><!-- react-text: 172 -->The ul should contain three li elements.<!-- /react-text --></p></div></div><div class="codeWrapper"><h1 class="title"><!-- react-text: 111 -->Code <!-- /react-text --><span class="keyShortcut">(press Cmd/Ctrl + Enter to run)</span></h1><div class="ReactCodeMirror editor"><textarea autocomplete="off" style="display: none;">// write your code here
-</textarea><div class="CodeMirror cm-s-monokai"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 16px; left: 35.84px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 29px; margin-bottom: -14px; border-right-width: 16px; min-height: 44px; min-width: 196.62px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>11</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>4</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 3.83997px; top: 0px; height: 17.92px;">&nbsp;</div></div><div class="CodeMirror-code"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment">// write your code here</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -29px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 16px; width: 1px; border-bottom: 0px solid transparent; top: 44px;"></div><div class="CodeMirror-gutters" style="height: 60px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div></div></div></div>
-
+<div class="mainContainer">
+  <div class="testWrapper">
+    <h1 class="title">Tests</h1>
+    <div class="testControls"><button class="seedBtn">Reload Seed</button><button class="solnBtn">Solution Code</button><button class="travelBtn">Previous Challenge</button><button class="travelBtn">Next Challenge</button><button class="testBtn">Test Code</button></div>
+    <div class="testResults">
+      <p class="msg error">
+        <!-- react-text: 106 -->Your code does not pass the tests,
+        <!-- /react-text -->
+        <!-- react-text: 123 -->1
+        <!-- /react-text -->
+        <!-- react-text: 107 -->out of
+        <!-- /react-text -->
+        <!-- react-text: 124 -->6
+        <!-- /react-text -->
+        <!-- react-text: 108 -->tests are passing
+        <!-- /react-text -->
+      </p>
+      <p class="test testSuccess"><i class="fa fa-check" aria-hidden="true"></i>
+        <!-- react-text: 127 -->Your JSX code should transpile successfully.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 130 -->The constant JSX should return a div element.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 133 -->The div should contain an h1 tag as the first element.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 160 -->The div should contain a p tag as the second element.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 163 -->The div should contain a ul tag as the third element.
+        <!-- /react-text -->
+      </p>
+      <p class="test testFailure"><i class="fa fa-times" aria-hidden="true"></i>
+        <!-- react-text: 172 -->The ul should contain three li elements.
+        <!-- /react-text -->
+      </p>
+    </div>
+  </div>
+  <div class="codeWrapper">
+    <h1 class="title"><!-- react-text: 111 -->Code <!-- /react-text --><span class="keyShortcut">(press Cmd/Ctrl + Enter to run)</span></h1>
+    <div class="ReactCodeMirror editor"><textarea autocomplete="off" style="display: none;">// write your code here
+</textarea>
+      <div class="CodeMirror cm-s-monokai">
+        <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 16px; left: 35.84px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div>
+        <div class="CodeMirror-vscrollbar" cm-not-content="true">
+          <div style="min-width: 1px; height: 0px;"></div>
+        </div>
+        <div class="CodeMirror-hscrollbar" cm-not-content="true">
+          <div style="height: 100%; min-height: 1px; width: 0px;"></div>
+        </div>
+        <div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div>
+        <div class="CodeMirror-gutter-filler" cm-not-content="true"></div>
+        <div class="CodeMirror-scroll" tabindex="-1">
+          <div class="CodeMirror-sizer" style="margin-left: 29px; margin-bottom: -14px; border-right-width: 16px; min-height: 44px; min-width: 196.62px; padding-right: 0px; padding-bottom: 0px;">
+            <div style="position: relative; top: 0px;">
+              <div class="CodeMirror-lines">
+                <div style="position: relative; outline: none;">
+                  <div class="CodeMirror-measure"><pre>x</pre>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>11</div>
+                    </div>
+                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt">
+                      <div>4</div>
+                    </div>
+                  </div>
+                  <div class="CodeMirror-measure"></div>
+                  <div style="position: relative; z-index: 1;"></div>
+                  <div class="CodeMirror-cursors">
+                    <div class="CodeMirror-cursor" style="left: 3.83997px; top: 0px; height: 17.92px;">&nbsp;</div>
+                  </div>
+                  <div class="CodeMirror-code">
+                    <div style="position: relative;">
+                      <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                        <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div>
+                      </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment">// write your code here</span></span></pre></div>
+                    <div style="position: relative;">
+                      <div class="CodeMirror-gutter-wrapper" style="left: -29px;">
+                        <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div>
+                      </div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">&#8203;</span></span></pre></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="position: absolute; height: 16px; width: 1px; border-bottom: 0px solid transparent; top: 44px;"></div>
+          <div class="CodeMirror-gutters" style="height: 60px;">
+            <div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
