@@ -1,9 +1,11 @@
-// Understand String Immutability -- ES6
 
 // Setup
-var myStr = "Jello World";
+let myStr = "Jello World";
 
 // Only change code below this line
 
-myStr[0] = "H"; // Fix Me
+let fixStr = myStr.slice(1);
+
+myStr = "H" + fixStr; // Fix Me
+
 
