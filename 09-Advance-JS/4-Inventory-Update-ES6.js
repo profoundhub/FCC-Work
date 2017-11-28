@@ -1,10 +1,10 @@
 
-function updateInventory(arr1, arr2) {    
-    function arrayFind(value, origin, index) {
+let updateInventory = (arr1, arr2) => {    
+    let arrayFind = (value, origin, index) =>  {
           return (origin.findIndex((a, b) => 
             a[index] === value
           ));
-    }    
+    };
     for (let i in arr2) {
       let index = arrayFind (arr2[i][1], arr1, 1);
       if (index === -1) {
@@ -14,7 +14,7 @@ function updateInventory(arr1, arr2) {
       }
     }      
     return arr1.sort((a,b) => a[1] > b[1]);
-}
+};
 
 // Example Inventory Lists
 let curInv = [
@@ -30,4 +30,5 @@ let newInv = [
     [67, "Bowling Ball"],
     [7, "Toothpaste"]
 ];
+
 updateInventory(curInv, newInv);
