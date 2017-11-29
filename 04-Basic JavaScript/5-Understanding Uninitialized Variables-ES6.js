@@ -1,8 +1,8 @@
 
 // Initialize these three variables
-var a = 5;
-var b = 10;
-var c = "I am a";
+let a = 5;
+let b = 10;
+let c = "I am a";
 
 // Do not change code below this line
 
@@ -10,3 +10,7 @@ a = a + 1;
 b = b + 5;
 c = c + " String!";
 
+/*
+c = `${c} String!`;     // Failed the test! 
+                        // Do not change code below the line
+*/
