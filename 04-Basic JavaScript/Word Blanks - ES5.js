@@ -1,9 +1,10 @@
 // Word Blanks
+// Surprising, this works!
 
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-  var result = "";
+  let result = "";
   // Your code below this line
-  result = "The " + myNoun + " was " + myAdjective + ", but " + myVerb + " very " + myAdverb + " .";
+  result = `The ${myNoun} was ${myAdjective}, but ${myVerb} very ${myAdverb} .`;
 
   // Your code above this line
   return result;
