@@ -1,10 +1,9 @@
-// Word Blanks
-// Surprising, this works!
+// Word Blanks - ES5
 
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-  let result = "";
+  var result = "";
   // Your code below this line
-  result = `The ${myNoun} was ${myAdjective}, but ${myVerb} very ${myAdverb} .`;
+  result = "The " + myNoun + " was " + myAdjective + ", but " + myVerb + " very " + myAdverb + " .";
 
   // Your code above this line
   return result;
