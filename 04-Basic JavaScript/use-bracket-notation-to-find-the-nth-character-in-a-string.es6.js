@@ -1,11 +1,10 @@
 
 // Example
-var firstName = "Ada";
-var secondLetterOfFirstName = firstName[1];
+let firstName = "Ada";
+let secondLetterOfFirstName = firstName[1];
 
 // Setup
-var lastName = "Lovelace";
+let lastName = "Lovelace";
 
 // Only change code below this line.
-var thirdLetterOfLastName = lastName;
-
+let thirdLetterOfLastName = lastName[2];
