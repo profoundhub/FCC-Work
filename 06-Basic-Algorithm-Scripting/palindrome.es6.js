@@ -1,9 +1,8 @@
-let palindrome = (str) => {
+function palindrome(str) {
 
-  // Merge lines
-  // str = str.toLowerCase().replace(/[^a-zA-Z0-9]+/g,"");
+  str = str.toLowerCase().replace(/[^a-zA-Z0-9]+/g,"");
+  return str === str.split("").reverse().join("");
 
-  return str === str.toLowerCase().replace(/[^a-zA-Z0-9]+/g,"").split("").reverse().join("");  
-};
+}
 
 palindrome("eye");
