@@ -17,3 +17,4 @@ function palindrome(str) {
 }
 
 // palindrome("0_0 (: /-\ :) 0-0  123");
+palindrome(eye);
