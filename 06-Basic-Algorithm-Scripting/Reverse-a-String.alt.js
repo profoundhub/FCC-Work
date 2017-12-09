@@ -1,11 +1,9 @@
 
 let reverseString = (str) => {
 
-
   var arr = str.split('');
   arr.reverse();
-  arr.join();
-
+  arr.join();  
   
   return arr;
 
