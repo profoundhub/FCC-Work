@@ -27,8 +27,8 @@ More: https://www.codecademy.com/courses/javascript-lesson-205/1/1
 
 ### Solutions:
 
-* [Factorialize-a-Number.alt.js] (Factorialize-a-Number.alt.js)
-* Factorialize-a-Number.es6.js
+* [Factorialize-a-Number.alt.js](Factorialize-a-Number.alt.js)
+* [Factorialize-a-Number.es6.js](Factorialize-a-Number.es6.js)
 * Factorialize-a-Number.for-loop.comments.js
 * Factorialize-a-Number.for-loop.js
 * Factorialize-a-Number.help.md
