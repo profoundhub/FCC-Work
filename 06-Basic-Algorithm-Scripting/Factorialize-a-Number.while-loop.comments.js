@@ -10,7 +10,6 @@ factorialize(5);
 
 /*
   Pattern: 
-
     0! = 1
     1! = 1
     2! = 2 * 1
