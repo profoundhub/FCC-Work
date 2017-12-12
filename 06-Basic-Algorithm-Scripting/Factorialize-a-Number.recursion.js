@@ -1,11 +1,14 @@
 
 function factorialize(num) {
-  var factorial = 1;
-    for (let n = 2; n <= num; n++) {
-      factorial = factorial * n;
-    }
-    return factorial;
+  if (num < 0) 
+        return -1;
+  else if (num == 0) 
+      return 1;
+  else {
+      return (num * factorialize(num - 1));
   }
+}
+
 factorialize(5);
 
 /*
