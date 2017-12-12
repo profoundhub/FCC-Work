@@ -9,13 +9,13 @@ For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 Remember to use Read-Search-Ask if you get stuck. Write your own code.
 
-## Here are some helpful links:
+## Here are some other helpful links:
 
-Arithmetic Operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
+* Arithmetic Operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
 
-Helpful: https://medium.freecodecamp.org/how-to-factorialize-a-number-in-javascript-9263c89a4b38
+* Helpful: https://medium.freecodecamp.org/how-to-factorialize-a-number-in-javascript-9263c89a4b38
 
-More: https://www.codecademy.com/courses/javascript-lesson-205/1/1
+* More: https://www.codecademy.com/courses/javascript-lesson-205/1/1
 
 ## Tests:
 
