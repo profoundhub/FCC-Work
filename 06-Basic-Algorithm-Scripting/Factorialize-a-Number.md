@@ -27,15 +27,29 @@ More: https://www.codecademy.com/courses/javascript-lesson-205/1/1
 
 ### Solutions:
 
-* [Factorialize-a-Number.alt.js](Factorialize-a-Number.alt.js)
-* [Factorialize-a-Number.es6.js](Factorialize-a-Number.es6.js)
-* [Factorialize-a-Number.for-loop.comments.js](Factorialize-a-Number.for-loop.comments.js)
-* [Factorialize-a-Number.for-loop.js](Factorialize-a-Number.for-loop.js)
-* [Factorialize-a-Number.help.md](Factorialize-a-Number.help.md)
 * [Factorialize-a-Number.js](Factorialize-a-Number.js)
-* [Factorialize-a-Number.md](This File)
-* [Factorialize-a-Number.org.js](Factorialize-a-Number.org.js)
-* [Factorialize-a-Number.recursion.comments.js](Factorialize-a-Number.recursion.comments.js)
+* [Factorialize-a-Number.alt.js](Factorialize-a-Number.alt.js)
+
+#### ES6:
+* [Factorialize-a-Number.es6.js](Factorialize-a-Number.es6.js)
+
+#### FOR Loop:
+
+* [Factorialize-a-Number.for-loop.js](Factorialize-a-Number.for-loop.js)
+* [Factorialize-a-Number.for-loop.comments.js](Factorialize-a-Number.for-loop.comments.js)
+
+#### Recursion:
+
 * [Factorialize-a-Number.recursion.js](Factorialize-a-Number.recursion.js)
-* [Factorialize-a-Number.while-loop.comments.js](Factorialize-a-Number.while-loop.comments.js)
+* [Factorialize-a-Number.recursion.comments.js](Factorialize-a-Number.recursion.comments.js)
+
+#### While Loop:
+
 * [Factorialize-a-Number.while-loop.js](Factorialize-a-Number.while-loop.js)
+* [Factorialize-a-Number.while-loop.comments.js](Factorialize-a-Number.while-loop.comments.js)
+
+#### Others: 
+
+* Factorialize-a-Number.md (This File)
+* [Factorialize-a-Number.help.md](Factorialize-a-Number.help.md)
+* [Factorialize-a-Number Original](Factorialize-a-Number.org.js)
