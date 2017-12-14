@@ -4,6 +4,7 @@ function orbitalPeriod(arr) {
     earthRadius = 6367.4447,
     a = 2 * Math.PI,
     newArr = [];
+    
     let getOrbPeriod = function(obj) {
         let c = Math.pow(earthRadius + obj.avgAlt, 3),
         b = Math.sqrt(c / GM),
@@ -13,7 +14,7 @@ function orbitalPeriod(arr) {
         return obj;
     };
 
-    for (var elem in arr) {
+    for (let elem in arr) {
         newArr.push(getOrbPeriod(arr[elem]));
     }
     
