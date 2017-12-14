@@ -12,35 +12,35 @@ let subscription = source.subscribe(
         
 
         console.log('Completed');
-      return arg;
+    return arg;
     }); */
 
     function pairwise(arr, arg) {
         
         let TOC = [];
-      
-          for (var a in arr) {
+
+            for (var a in arr) {
             var temp1 = arr[a];
-      
-      
+
             for (let i = 1; i<arr.length; i++) {
-              let temp2 = arr[i];
-      
-              if (temp1 + temp2 === arg && i > a && TOC.indexOf(+a) === -1 && TOC.indexOf(+i) === -1) {
-                TOC.push(+a, +i);
-              break;      
-            }    
-          }  
+                let temp2 = arr[i];
+        
+                if (temp1 + temp2 === arg && i > a && TOC.indexOf(+a) === -1 && TOC.indexOf(+i) === -1) {
+                    TOC.push(+a, +i);
+                break;      
+                }    
+            }  
         }
+        
         // return arg;
         if (TOC.length >= 1) {
-          let sumAll = function(a, b) {
-            return a + b;
-          };  
-          return TOC.reduce(sumAll);  
-          } else {
-          return 0;
-        }
-      }  
-      
-      pairwise([1,4,2,3,0,5], 7);
+            let sumAll = function(a, b) {
+                return a + b;
+            };  
+                return TOC.reduce(sumAll);  
+            } else {
+                return 0;
+            }
+        }  
+
+pairwise([1,4,2,3,0,5], 7);
