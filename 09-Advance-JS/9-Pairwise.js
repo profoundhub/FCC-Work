@@ -1,27 +1,12 @@
-/* 
-    let source = Rx.Observable.range(arr, arg).pairwise();
-    let subscription = source.subscribe(
-
-        function pairwise(arr, arg) {
-            console.log('Next: ' + JSON.stringify(arr));
-        },
-        function (err) {
-            console.log('Error: ' + err);
-        },
-        function () {
-            console.log('Completed');
-        return arg;
-        }); 
-*/
 
 function pairwise(arr, arg) {
-    let TOC = [];
+    var TOC = [];
 
     for (var a in arr) {
         var temp1 = arr[a];
     
-        for (let i = 1; i < arr.length; i++) {
-        let temp2 = arr[i];
+        for (var i = 1; i < arr.length; i++) {
+        var temp2 = arr[i];
     
             if (
                 temp1 + temp2 === arg &&
@@ -35,9 +20,9 @@ function pairwise(arr, arg) {
         }
     }
 
-    // Return arg;
+    // return arg;
     if (TOC.length >= 1) {
-        let sumAll = function(a, b) {
+        var sumAll = function(a, b) {
         return a + b;
         };
         return TOC.reduce(sumAll);
@@ -46,3 +31,19 @@ function pairwise(arr, arg) {
     }
 }    
 pairwise([1, 4, 2, 3, 0, 5], 7);
+
+/* 
+    var source = Rx.Observable.range(arr, arg).pairwise();
+    var subscription = source.subscribe(
+
+        function pairwise(arr, arg) {
+            console.log('Next: ' + JSON.stringify(arr));
+        },
+        function (err) {
+            console.log('Error: ' + err);
+        },
+        function () {
+            console.log('Completed');
+        return arg;
+        }); 
+*/
