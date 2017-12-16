@@ -1,1 +1,1 @@
-// Get JSON with the jQuery getJSON Method
+// Get JSON with the jQuery getJSON Method - ORG
