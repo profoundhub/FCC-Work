@@ -1,4 +1,4 @@
-// Trigger Click Events with jQuery
+// Trigger Click Events with jQuery - JS
 /*
     <script>
     // Only change code below this line.
