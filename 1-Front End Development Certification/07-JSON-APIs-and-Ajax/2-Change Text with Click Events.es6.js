@@ -1,1 +1,1 @@
-// Change Text with Click Events
+// Change Text with Click Events - ES6

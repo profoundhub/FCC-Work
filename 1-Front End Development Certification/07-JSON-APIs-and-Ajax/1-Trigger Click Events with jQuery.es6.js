@@ -1,4 +1,4 @@
-// Trigger Click Events with jQuery
+// Trigger Click Events with jQuery - ES6
 /*
     <script>
     // Only change code below this line.
