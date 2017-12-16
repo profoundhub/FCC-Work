@@ -1,1 +1,1 @@
-// 6-Prefilter JSON
+// 6-Prefilter JSON - JS
