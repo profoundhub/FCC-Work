@@ -1,1 +1,2 @@
-// 7 Get Geo-location Data
+// 7 Get Geo-location Data - JS
+
