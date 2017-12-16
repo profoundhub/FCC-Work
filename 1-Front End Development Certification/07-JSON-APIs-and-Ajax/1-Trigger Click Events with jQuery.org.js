@@ -1,4 +1,4 @@
-// Trigger Click Events with jQuery - Org
+// Trigger Click Events with jQuery - ORG
 /*
     <script>
     // Only change code below this line.
