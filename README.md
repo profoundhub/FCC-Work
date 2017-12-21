@@ -15,3 +15,5 @@ No. | Title | Link
 8 | [Intermediate Algorithm Scripting](https://github.com/profoundhub/FCC-Work/tree/master/8-Intermediate%20Algorithm%20Scripting) | + 
 9 | [Advance JS](https://github.com/profoundhub/FCC-Work/tree/master/9-Advance-JS) | +
 10 | [Projects](https://github.com/profoundhub/FCC-Work/tree/master/Projects) | +
+
+This is for the older version of freeCodeCamp, I will create a new repo for the newer version, so people on the previous / current version can still find what they are looking for.
